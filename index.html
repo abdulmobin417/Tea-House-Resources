@@ -38,6 +38,9 @@
       .bg-gradient {
         background-image: linear-gradient(270deg, #f00 0%, #ff8938 100%);
       }
+      .great-bg-gradient {
+        background-image: linear-gradient(270deg, #f00 0%, #ff8938 100%);
+      }
     </style>
   </head>
   <body class="font-manrope">
@@ -134,7 +137,7 @@
     <!-- header section end -->
 
     <!-- main section start -->
-    <main class="px-4 container mx-auto flex justify-center mt-36">
+    <main class="px-4 container mx-auto flex flex-col justify-center mt-36">
       <!-- feature section start -->
       <section class="space-y-5 mb-32">
         <h2 class="text-[#1C1C1C] text-5xl font-extrabold text-center">
@@ -142,11 +145,13 @@
         </h2>
         <p class="text-[#777] font-medium leading-7 text-center pb-12">
           There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form,<br class="hidden lg:block" />
+          the majority have suffered alteration in some form,<br
+            class="hidden lg:block"
+          />
           by injected humour, or randomised words which don't look even slightly
           believable.
         </p>
-        <div class="flex flex-wrap justify-center gap-6 ">
+        <div class="flex flex-wrap justify-center gap-6">
           <div
             class="bg-gradient-to-t from-white to-[#f4f4f4] p-7 w-[267px] h-[391px] flex flex-col justify-center items-center rounded-xl"
           >
@@ -214,6 +219,66 @@
         </div>
       </section>
       <!-- feature section end -->
+
+      <!-- great tea section start -->
+      <section class="mb-32 flex justify-center gap-14 flex-wrap">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          <div
+            class="w-[238px] h-[136px] bg-gradient-to-r from-red-100 to-orange-50 rounded-lg"
+          ></div>
+          <div
+            class="px-12 py-11 bg-[#5776391a] rounded-lg w-[238px] row-span-2"
+          >
+            <img class="h-[273px]" src="./images/fresh-1.png" alt="" />
+          </div>
+          <div
+            class="px-12 py-11 bg-[#e6a6231a] rounded-lg w-[238px] row-span-2"
+          >
+            <img class="h-[273px]" src="./images/fresh-2.png" alt="" />
+          </div>
+          <div
+            class="w-[238px] h-[136px] bg-gradient-to-r from-[#D9D9D9] to-white rounded-lg"
+          ></div>
+        </div>
+        <div class="">
+          <h2
+            class="text-[#1C1C1C] text-[45px] font-extrabold mb-5 text-center sm:text-left"
+          >
+            Great Tea, Freshly<br class="hidden sm:block" />
+            Presented
+          </h2>
+          <p class="text-[#777] font-medium sm:w-[582px] mb-8 text-center sm:text-left">
+            The meaning of gong cha is chanese is to provide the best tea to
+            emperor from all possessions. It represents the highest quality and
+            self expectation. Establishing in 2006, Gong cha had been deeply
+            appreciated by its custoers because of good words of mouth and
+            unique customized service orginated from Taiwan.
+          </p>
+          <div>
+            <h3 class="text-[#1C1C1C] text-xl font-extrabold mb-2 text-center sm:text-left">
+              Unique Taste
+            </h3>
+            <p class="text-[#777] font-medium text-center sm:text-left">
+              A Unique and different style from other teapots gives a<br
+                class="hidden sm:block"
+              />
+              luxurious and minimalist impression
+            </p>
+          </div>
+          <div class="mt-5">
+            <h3 class="text-[#1C1C1C] text-xl font-extrabold mb-2 text-center sm:text-left">
+              Premium Quality
+            </h3>
+            <p class="text-[#777] font-medium text-center sm:text-left">
+              Premium Quality that makes tea more elegant and more<br
+                class="hidden sm:block"
+              />
+              durable when you use it.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- great tea section end -->
     </main>
     <!-- main section end -->
   </body>
